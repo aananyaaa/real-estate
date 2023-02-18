@@ -1,7 +1,14 @@
 import React from 'react';
+import Banner from '../components/Banner'
+import HouseList from '../components/HouseList'
 
-const Home = () => {
-  return <div>Home</div>;
-};
+function Home (){
+  return (
+  <div className='min-h-[1080px]'>
+    <Banner/>
+    <HouseList/>
+  </div>
+  );
+}
 
 export default Home;
